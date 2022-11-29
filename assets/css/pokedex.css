@@ -79,6 +79,7 @@
 }
 
 .pokemon {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     margin: .5rem;
@@ -110,16 +111,20 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
 .pokemon .detail .types .type {
     color: #fff;
+    width: auto;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
+    text-shadow: 1px 1px 2px #000000;
+    
 }
 
 .pokemon .detail img {
